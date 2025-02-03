@@ -24,6 +24,7 @@ const Home = () => {
               <img src={product.productImage} alt="Product Image" />
               <h2 className="product-name">{product.productName}</h2>
               <p className="product-description">{product.productDescription}</p>
+              <p className="product-material">{product.productMaterial}</p>
             </div>
           )
         })
