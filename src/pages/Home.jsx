@@ -17,6 +17,7 @@ const Home = () => {
   return (
       <> 
       <Navbar />
+      <div className="card-container">
       {
         products.map((product)=>{
           return (
@@ -29,6 +30,7 @@ const Home = () => {
           )
         })
       }
+      </div>
 
 
 

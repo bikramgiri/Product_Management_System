@@ -1,4 +1,4 @@
-* {
+/* * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
@@ -100,4 +100,35 @@
       .nav-links li {
           margin: 16px 0;
       }
-  }
+  } */
+
+/* Day 6 24:37 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.navbar {
+    background-color: #333;  
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar a {
+        float: none;
+        display: block;
+        text-align: left;
+   }
+}
+   
